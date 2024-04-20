@@ -5,7 +5,11 @@
 	<groupId>SeleniumPracticeProject</groupId>
 	<artifactId>SeleniumPracticeProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+	<packaging>jar</packaging>
+
+	<name>SeleniumPracticeProject</name>
+	<url>http://maven.apache.org</url>
+
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -60,6 +64,15 @@
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>5.0.9</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.7.1</version>
+			<scope>test</scope>
 		</dependency>
 
 	</dependencies>
