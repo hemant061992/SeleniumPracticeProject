@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="day_38.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="day_38.NopCommerceTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testLogin"/>
+          <include name="setup"/>
+          <include name="testLogout"/>
+        </methods>
+      </class> <!-- day_38.NopCommerceTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
